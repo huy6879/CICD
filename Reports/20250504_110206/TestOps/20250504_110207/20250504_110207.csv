@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOps,Chrome 135.0.7049.115,,,04-05-2025 11:02:13,04-05-2025 11:02:24,11.580s,PASSED
+,,,,,,,
+Test Cases/TestOpsIntegration/TestOpsTesting,Chrome 135.0.7049.115,,,04-05-2025 11:02:13,04-05-2025 11:02:24,11.470s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.115,,,04-05-2025 11:02:13,04-05-2025 11:02:14,1.536s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 135.0.7049.115,,,04-05-2025 11:02:14,04-05-2025 11:02:19,5.016s,PASSED
+"click(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 135.0.7049.115,,,04-05-2025 11:02:19,04-05-2025 11:02:20,0.747s,PASSED
+"setText(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 135.0.7049.115,,,04-05-2025 11:02:20,04-05-2025 11:02:21,0.664s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 135.0.7049.115,,,04-05-2025 11:02:21,04-05-2025 11:02:21,0.325s,PASSED
+"click(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/button_Login""))",Chrome 135.0.7049.115,,,04-05-2025 11:02:21,04-05-2025 11:02:22,0.861s,PASSED
+"click(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 135.0.7049.115,,,04-05-2025 11:02:22,04-05-2025 11:02:23,0.495s,PASSED
+"click(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/td_8""))",Chrome 135.0.7049.115,,,04-05-2025 11:02:23,04-05-2025 11:02:23,0.506s,PASSED
+"setText(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Appointment"")",Chrome 135.0.7049.115,,,04-05-2025 11:02:23,04-05-2025 11:02:24,0.760s,PASSED
+"click(findTestObject(""Object Repository/TestOpsTesting/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 135.0.7049.115,,,04-05-2025 11:02:24,04-05-2025 11:02:24,0.296s,PASSED
+closeBrowser(),Chrome 135.0.7049.115,,,04-05-2025 11:02:24,04-05-2025 11:02:24,0.115s,PASSED
